@@ -50,7 +50,7 @@ const SecurityMessage = () => {
     <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-red-600 to-blue-700 p-6">
       <div className="bg-white shadow-xl rounded-2xl p-6 max-w-md w-full text-center border border-gray-200">
         {/* 🔒 Icon & Title */}
-        <h1 className="text-3xl font-extrabold text-blue-700">🔒 Security Compliance</h1>
+        <h1 className="text-3xl font-extrabold text-blue-700"> Security Compliance</h1>
         
         {/* Information Text */}
         <p className="text-gray-700 mt-4 leading-relaxed">

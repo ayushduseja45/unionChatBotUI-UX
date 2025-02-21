@@ -16,7 +16,8 @@ const SplashScreen = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-900 to-blue-700 flex flex-col items-center justify-center">
       <div className="animate-fade-in text-center">
-        <Bank className="w-24 h-24 text-white mb-6 animate-pulse" />
+        {/* <Bank className="w-24 h-24 text-white mb-6 animate-pulse" /> */}
+        <img src='logo.png' className='w-24 h-24 ml-6'  />
         <h1 className="text-4xl font-bold text-white mb-2">Vyom AI</h1>
         <p className="text-blue-100 text-lg">Union Bank of India</p>
         <div className="mt-8">
