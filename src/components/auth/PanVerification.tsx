@@ -16,7 +16,7 @@ const PanVerification = () => {
     await new Promise(resolve => setTimeout(resolve, 1500));
     
     setIsUploading(false);
-    navigate('/verify/face');
+    navigate('/verify/video');
   };
 
   return (

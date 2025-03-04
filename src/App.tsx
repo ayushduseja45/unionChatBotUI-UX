@@ -12,6 +12,7 @@ import SecurityMessage from './components/auth/SecurityMessage';
 import QuerySubmission from './components/auth/QuerySubmission';
 import Profile from './components/Profile';
 import ChatBot from './components/ChatBot';
+import VideoAuth from './components/auth/VideoAuth';
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/verify/aadhaar" element={<AadhaarVerification />} />
         <Route path="/verify/pan" element={<PanVerification />} />
-        <Route path="/verify/face" element={<FaceRecognition />} />
+        <Route path="/verify/video" element={<VideoAuth />} />
         <Route path="/verify/voice" element={<AudioRecognition />} />
         <Route path="/query-submission" element={<QuerySubmission />} />
         <Route path="/profile" element={<Profile />} />
